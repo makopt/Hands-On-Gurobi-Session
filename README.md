@@ -1,15 +1,21 @@
 
-# 🧠 Hands-On Gurobi Session — Preparation Instructions
+# 🧠 Hands-On Gurobi Session — Setup Guide
 
-To get the most out of our upcoming **Hands-On Gurobi Session** on **Sunday, September 21, 2025**, please complete the following setup tasks **before** the session.
+Welcome to the **Hands-On Gurobi Session** repository! This repository contains materials to help you learn optimization modeling using the Gurobi Optimizer in Python.
+
+To get the most out of this session, please complete the following setup tasks **before** the session begins.
 
 ---
 
-## 📦 1. Download the Working Folder
+## 📦 1. Clone this Repository
 
-Download the materials (ZIP format) from the link below and extract them to a convenient location on your computer:
+Clone or download this repository to your local machine:
 
-🔗 [Knapsack Working Folder](https://drive.google.com/file/d/1sk8Z6tt-4rqsnauisxEIPt4tTH0PstDx/view?usp=sharing)
+```bash
+git clone <repository-url>
+```
+
+Or download it as a ZIP file using the green "Code" button above.
 
 ---
 
@@ -70,8 +76,8 @@ gurobi
 
 ## 🧪 7. Run the Test Script
 
-- Unzip the working folder.
-- Open the script `test_gurobi.py` in your preferred code editor (e.g., VS Code, PyCharm, Jupyter).
+- Navigate to the cloned repository folder.
+- Open the script `gurobi_test.py` in your preferred code editor (e.g., VS Code, PyCharm, Jupyter).
 - Run the script.
 
 You should see output similar to the following:
@@ -88,7 +94,19 @@ Obj: 3.0
 
 ---
 
-## 🧮 8. What We'll Cover in the Session
+## 🧮 8. Repository Contents
+
+This repository includes the following materials:
+
+- 🎒 **Knapsack.ipynb** — Jupyter notebook for the Knapsack Problem
+- 📦 **Binpacking.ipynb** — Jupyter notebook for the 1D Bin Packing Problem
+- 🧪 **gurobi_test.py** — Test script to verify your Gurobi installation
+- 📁 **kp_instances/** — Knapsack problem instance files for practice
+- 🛠️ **kp_gen.py** — Generator script for knapsack problem instances
+
+---
+
+## 🧮 9. What We'll Cover in the Session
 
 We’ll use Gurobi to solve two classic optimization problems in Python:
 
@@ -97,7 +115,7 @@ We’ll use Gurobi to solve two classic optimization problems in Python:
 
 ---
 
-## 💻 9. Recommended IDE: Visual Studio Code
+## 💻 10. Recommended IDE: Visual Studio Code
 
 We'll use **Visual Studio Code** during the session.
 
@@ -110,4 +128,13 @@ We'll use **Visual Studio Code** during the session.
 
 ✅ **Please complete all steps before the session begins** so we can focus on hands-on modeling and solving problems using Gurobi.
 
-If you run into any issues, feel free to contact us ahead of time.
+If you run into any issues, feel free to reach out for help.
+
+---
+
+## 📚 Additional Resources
+
+- 📖 [Gurobi Documentation](https://www.gurobi.com/documentation/)
+- 🎓 [Gurobi Examples](https://www.gurobi.com/documentation/current/examples/index.html)
+- 💬 [Gurobi Community Forum](https://support.gurobi.com/hc/en-us/community/topics)
+

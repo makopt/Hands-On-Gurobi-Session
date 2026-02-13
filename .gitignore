@@ -1,0 +1,28 @@
+# Ignore all files by default
+*
+
+# Allow directories (so git can traverse them)
+!*/
+
+# Allow specific file extensions present in this workspace
+!*.ipynb
+!*.py
+!*.md
+!*.png
+!*.jpg
+!*.jpeg
+!*.csv
+!*.json
+!*.yaml
+!*.yml
+!*.pdf
+!*.txt
+!*.log
+!*.sh
+!*.bat
+!*.ps1
+!*.R
+!*.Rmd
+
+# Allow .gitignore itself
+!.gitignore
